@@ -1,0 +1,740 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{margin: 0px;padding: 0px;}
+
+
+
+
+
+
+.container {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+header {
+    position: absolute;
+    z-index: 1;
+}
+
+.topbar {
+    width: 1222px;
+    background: rgba(0,0,0,.7);
+    position: absolute;
+    height: 118px;
+}
+
+.logo {
+    overflow: hidden;
+    width: 500px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.logo img {
+    width: 280px;
+}
+
+.optionwrapper {
+    width: 545px;
+    overflow: hidden;
+    padding-top: 32px;
+    float: right;
+    display: flex;
+    text-transform: uppercase;
+}
+
+.searchbox {
+    color: white;
+    margin-left: 10px;
+}
+
+.searchbox:hover{color: green;
+transition: 0.1s;}
+
+
+.singlesidebar {
+    overflow: hidden;
+    display: block;
+}
+
+.trees {
+    font-weight: 600;
+    font-family: "Quattrocento Sans",sans-serif;
+    color: white;
+    float: right;
+    width: 80px;
+    margin-left: 20px;
+    font-size: 0.8em;
+    letter-spacing: 0.5px;
+}
+
+.trees i{margin-left: 10px;}
+.plants i{margin-left: 10px;}
+.garden i{margin-left: 10px;}
+
+.plants {
+    float: right;
+    width: 80px;
+    margin-left: 20px;
+    font-size: 0.8em;
+    font-family: "Quattrocento Sans",sans-serif;
+    color: white;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.garden {
+    float: right;
+    width: 225px;
+    margin-left: 20px;
+    font-size: 0.8em;
+    font-family: "Quattrocento Sans",sans-serif;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+ 
+
+.list {
+    background: white;
+    width: 226px;
+    list-style: none;
+    margin-top: 20px;
+    overflow: hidden;
+    display: none;
+    position: relative;
+}
+
+.list li {
+    padding: 16px;
+    line-height: 0.6;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Open Sans",sans-serif;
+    color: black;
+    padding-left: 25px;
+}
+
+.list li:last-child {
+    padding-bottom: 20px;
+}
+.list li:hover {
+    background: #89ab23;
+    color: white;
+}
+
+.trees:hover #one{
+    display: block;
+}
+
+.trees:hover{
+    color: #89ab23;
+}
+.plants:hover{
+    color: #89ab23;
+}
+.garden:hover{
+    color: #89ab23;
+}
+.plants:hover #two{
+    display: block;
+}
+
+.garden:hover #three{
+    display: block;
+}
+
+
+
+
+.topbanner{
+    background-image: url(treeimage/Types-of-Annuals-that-Bloom-All-Summer_0_low.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 700px;
+}
+
+.middlebox {
+    text-align: center;
+    overflow: hidden;
+    display: block;
+    width: 470px;
+    background: rgba(255,252,243,.9);
+    position: absolute;
+    top: 40%;
+    left: 31%;
+    height: 140px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.middlebox span {
+    color: #00a651;
+    font-size: 14px;
+    display: block;
+    text-transform: capitalize;
+    font-family: "Quattrocento Sans",sans-serif;
+    margin-top: 30px;
+}
+
+.middlebox p {
+    font-size: 21px;
+    margin-top: 20px;
+    color: #383858;
+    font-family: "Quattrocento Sans",sans-serif;
+}
+
+.middlebox span:hover{
+    color: #383858;
+
+}
+.middlebox p:hover{
+    color: orange;
+
+}
+
+.subscribe {
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    top: 620px;
+    width: 100%;
+}
+
+.subscribewrapper {
+    width: 100%;
+    background: rgba(255,252,243,.9);
+    height: 80px;
+}
+
+.subscribewrapper .get {
+    display: block;
+    float: left;
+    font-size: 17px;
+    width: 465px;
+    padding-left: 70px;
+    padding-top: 20px;
+    font-family: "Quattrocento Sans",sans-serif;
+}
+
+.subscribewrapper .email {
+    display: block;
+    float: right;
+    width: 636px;
+    padding-top: 20px;
+}
+
+.subscribewrapper .email input {
+    padding: 10px;
+    border: 2px solid #ddd;
+}
+
+.subscribewrapper .email button {
+    padding: 10px;
+    border: 2px solid #ddd;
+    background: #2bbd3e;
+    color: white;
+    width: 129px;
+}
+
+
+#popular{
+    background: url(treeimage/bg-body.webp);
+    overflow: hidden;
+    display: block;
+}
+.container .title h2 {padding-top: 50px;padding-left: 50px;margin-bottom: 30px;font-family:  "Quattrocento Sans",sans-serif;font-weight: 900;}
+
+.singlepop {
+    background: white;
+    overflow: hidden;
+    display: block;
+    width: 400px;
+    height: 370px;
+    margin-right: 25px;
+}
+
+.popimg img {
+    width: 100%;
+}
+
+.popdesc{
+    font-size: 19px;
+    padding-left: 15px;
+    width: 358px;
+    margin-top: 20px;
+    color: #333;
+    font-weight: 500;
+    font-family: "Quattrocento Sans",sans-serif;
+}
+
+.popdesc p:hover {
+    color: #00a651;
+}
+
+
+.singlewrapper {
+    overflow: hidden;
+    display: flex;
+    padding-right: 40px;
+    padding-left: 50px;
+}
+#popular .container {width: 1222px;}
+img#extra {
+    height: 270px;
+}
+
+
+#articals{
+    background:url(treeimage/bg-body.webp);
+}
+
+
+.articalswrapper {
+    display: block;
+}
+
+.singleartical {
+    width: 353px;
+    height: 530px;
+    background: #fff;
+    overflow: hidden;
+    display: block;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+
+.singleartical #lastimage {
+    width: 353px;
+    height: 595px;
+    background: #fff;
+    overflow: hidden;
+    display: block;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+
+div#lastimg {
+    width: 353px;
+}
+.articalimg img {
+    width: 100%;
+    height: 200px;
+}
+div#banana {
+    width: 119%;
+}
+
+.singleartical .btn {
+    padding: 15px;
+    padding-left: 0px;
+}
+
+.singleartical h2 {
+ 
+width: 293px;
+ 
+font-size: 20px;
+ 
+font-family: "Oswald",sans-serif;
+}
+
+articalmeta p {
+   
+width: 326px;
+   
+margin-top: 5px;
+   
+color: #740808;
+}
+
+.singleartical span.mul {font-family: "Oswald",sans-serif;font-size: 19px;margin-bottom: 15px;color: black;}
+
+
+
+.articalmeta {
+    overflow: hidden;
+    display: block;
+    width: 328px;
+    padding-left: 15px;
+}
+
+.btntwo {
+    text-align: right;
+    width: 325px;
+    border-top: 1px solid #e8e8e8;
+    padding-top: 15px;
+}
+
+.btntwo button {
+    padding: 5px 10px;
+    border:none;
+    background:#00a651;
+    color: #fff;
+    font-size: 13px;
+    display: inline-block;
+    text-transform: uppercase;
+    cursor: pointer;
+    }
+
+
+    .wrapper {padding-left: 48px;}
+
+.articalmeta .btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.articalmeta .btn button {
+    padding: 4px 8px;
+    border: none;
+    background: #dedede;
+    color: black;
+    font-size: 12px;
+    text-transform: uppercase;}
+    .singleartical .mul {
+    color: black;
+    font-size: 18px;
+    padding-bottom: 16px;
+}
+
+p {
+    color: #999;
+    padding-bottom: 7px;
+    padding-top: 8px;
+}.articalmeta .btn button:hover {background: #00a651;color: #fff;}
+
+.singleartical h2:hover {color: #00a651;}
+
+
+
+section#catagories {
+    overflow: hidden;
+    display: block;
+    background: url(treeimage/bg-body.webp);
+    padding-top: 40px;
+    border-top: 1px solid white;
+}
+
+.catagorywrapper {
+    overflow: hidden;
+    display: block;
+    padding-left: 50px;
+}
+
+.singlecata {
+    width: 351px;
+    margin-right: 35px;
+    float: left;
+    height: 545px;
+}
+
+.singlecata .titleone {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 12px 0px;
+    border-top: 1px solid #00a651;
+    border-bottom: 1px solid #00a651;
+    color: #00a651;
+    line-height: 26px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: "Oswald",sans-serif;
+}
+
+.catagorymeta {
+}
+
+.catagoryimg {
+    width: 85px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.catagoryp p {}.singlemeta {display: flex;margin-bottom: 60px;}
+
+.catagoryp p {
+    font-size: 17px;
+    font-family: "Quattrocento Sans",sans-serif;
+    width: 245px;
+    padding: 0px;
+    overflow: hidden;
+    font-weight: 400;
+    color: #333;
+    display: inline-block;
+}
+
+
+.catagoryp p:hover {color: #00a651;cursor: pointer;}
+
+
+
+
+footer#secfooter {
+    overflow: hidden;
+    padding-top: 25px;
+    color: white;
+    background: #8dbf42;
+}
+
+.footwrapper {
+    overflow: hidden;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+.singlefoot {
+    width: 280px;
+}
+
+.singlefoottwo {
+    width: 550px;
+}
+
+
+
+.singlefootthree {
+    width: 600px;
+    font-size: 14px;
+}
+
+.singlefootthree p {
+    color: white;
+    font-size: 14px;
+    font-family: system-ui;
+    font-weight: 600;
+}
+
+
+
+.menucontainer ul {
+    padding: 0px;
+}
+
+.menucontainer ul li {
+    list-style: none;
+    display: inline-block;
+    background: white;
+    color: black;
+    font-size: 12px;
+    font-family: system-ui;
+    padding-right: 12px;
+    padding-left: 9px;
+    padding-bottom: 3px;
+    padding-top: 4px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+}
+
+.footwrapper h2 {
+    margin-bottom: 20px;
+}
+
+.singlefoot ul {
+    list-style: none;
+    line-height: 19px;
+    font-size: 13px;
+    font-weight: 550;
+    font-family: system-ui;
+    text-transform: capitalize;
+}
+.singlefootthree h2 {
+    margin-bottom: 11px;
+}
+
+
+.sociallinks {
+    margin-top: 17px;
+}
+
+.sociallinks i {
+    font-size: 16px;
+    background: white;
+    color: black;
+    width: 24px;
+    height: 17px;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.copyright {
+    background: #84b535;
+    height: 58px;
+}
+
+.copyright p {
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    font-family: system-ui;
+    font-weight: 700;
+    line-height: 19px;
+    padding-top: 20px;
+}
+
+.menucontainer ul li:hover {
+    background: #00a651;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sociallinks i:hover {
+    background: #00a651;
+    color: white;
+    cursor: pointer;
+}
+
+.singlefoot ul li {
+    cursor: pointer;
+}
+.sidebox {
+    bottom: 515px;
+    overflow: hidden;
+    display: block;
+    width: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+.share p {
+    margin-top: 0px;
+    padding-top: 0px;
+    color: #555;
+    font-size: 18px;
+}
+
+.share {
+    background: #fff;
+    width: 50px;
+    text-align: center;
+    height: 40px;
+    padding-top: 3px;
+    color: #555;
+}
+
+
+
+
+
+
+
+.sidewrapper {
+    position: fixed;
+}
+
+.sidebox .fb {
+    background: #3b5998;
+    width: 33px;
+    height: 30px;
+    padding-top: 14px;
+    display: flex;
+    color: white;
+    padding-left: 17px;
+    border-top-right-radius: 5px;
+       border-bottom-right-radius: 5px;
+}
+.sidebox .fb #fshare {position: relative;
+    margin-top: -14px;
+    margin-left: 11px;
+    font-size: 18px;
+    color: white;
+    font-family: system-ui;
+    font-weight: 500;
+    right: 6px;
+    opacity: 0;}
+
+.fb:hover #fshare{
+    right: -6px;
+    transition: 0.2s;
+    opacity: 1;
+    transition-delay: 0.1s;
+}
+.fb:hover{
+    width: 100px;
+    transition: 0.2s;
+}
+
+
+.sidebox .twitt {
+    background:  #00acee;
+     width: 33px;
+    height: 30px;
+    padding-top: 14px;
+    display: flex;
+    color: white;
+    padding-left: 17px;
+    border-top-right-radius: 5px;
+       border-bottom-right-radius: 5px;
+
+}
+  .sidebox .twitt #tdes {position: relative;
+    margin-top: -14px;
+    margin-left: 11px;
+    font-size: 18px;
+    color: white;
+    font-family: system-ui;
+    font-weight: 500;
+    right: 6px;
+    opacity: 0;}
+
+.twitt:hover #tdes{
+    right: -10px;
+    transition: 0.2s;
+    opacity: 1;
+    transition-delay: 0.1s;
+}
+.twitt:hover{
+    width: 100px;
+    transition: 0.2s;
+}
+
+
+.sidebox .link {
+    background:  #CB2027;
+    width: 33px;
+    height: 30px;
+    padding-top: 14px;
+    display: flex;
+    color: white;
+    padding-left: 17px;
+ border-top-right-radius: 5px;
+       border-bottom-right-radius: 5px;
+}
+
+.sidebox .link #linkdesc {
+    position: relative;
+    margin-top: -27px;
+    margin-left: 29px;
+    font-size: 18px;
+    color: white;
+    font-family: system-ui;
+    font-weight: 500;
+    right: 15px;
+    opacity: 0;
+    }
+.link:hover #linkdesc{
+    transition: 0.2s;
+    opacity: 1;
+    transition-delay: 0.1s;
+    right: -15px;
+}
+.link:hover{
+    width: 100px;
+    transition: 0.2s;
+}
